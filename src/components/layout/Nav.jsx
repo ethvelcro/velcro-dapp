@@ -3,6 +3,7 @@ import classnames from 'classnames'
 import { withRouter } from 'react-router'
 import { Link } from 'react-router-dom'
 import VelcroLogo from '~/assets/images/velcro--logo.svg'
+import VelcroVSymbol from '~/assets/images/velcro--v-symbol.svg'
 import * as routes from '~/../config/routes'
 
 export const Nav = class _Nav extends Component {
@@ -33,7 +34,7 @@ export const Nav = class _Nav extends Component {
             <div className='row navbar-menu-container'>
               <div className='navbar-brand col-xs-8 col-md-8'>
                 <Link to={routes.HOME} className='navbar-item'>
-                  <VelcroLogo />
+                  <VelcroVSymbol className='v-symbol' /> <VelcroLogo />
                 </Link>
               </div>
 
