@@ -54,6 +54,17 @@
   width: 20px;
 }
 
+.v-symbol--light {
+  display: block;
+  margin: 1rem auto;
+  height: 30px;
+  width: 30px;
+}
+
+.v-symbol--light path {
+  fill: white;
+}
+
 .navbar-brand svg:hover path {
   // fill: white;
 }

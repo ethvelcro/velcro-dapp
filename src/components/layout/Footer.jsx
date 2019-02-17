@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import { withRouter } from 'react-router'
 import VelcroLogo from '~/assets/images/velcro--logo.svg'
+import VelcroVSymbol from '~/assets/images/velcro--v-symbol.svg'
 import * as routes from '~/../config/routes'
 
 export const Footer = class _Footer extends Component {
@@ -25,6 +26,7 @@ export const Footer = class _Footer extends Component {
             <div className='footer-brand'>
               <div className='footer-item'>
                 <h6 className='is-size-6'>
+                  <VelcroVSymbol className='v-symbol--light' />
                   <VelcroLogo />
                 </h6>
                 <br />
