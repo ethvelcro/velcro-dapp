@@ -44,7 +44,25 @@
 }
 
 .navbar-brand svg path {
+  fill: black;
   transition: fill 150ms ease-in;
+}
+
+.v-symbol {
+  height: 20px;
+  margin-right: 10px;
+  width: 20px;
+}
+
+.v-symbol--light {
+  display: block;
+  margin: 1rem auto;
+  height: 30px;
+  width: 30px;
+}
+
+.v-symbol--light path {
+  fill: white;
 }
 
 .navbar-brand svg:hover path {
