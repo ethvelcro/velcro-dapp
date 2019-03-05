@@ -1,3 +1,9 @@
+# [DEPRECATED]
+
+This repo was created for the ETHDenver 2019 Hackathon.  We're keeping this available for historical purposes.
+
+The project has been rebranded as Notus.  You can refer to the new Notus dapp [Github project](https://github.com/NotifyUs/notus-dapp).
+
 # Velcro DApp
 
 A frontend for interacting with a Velcro node for monitoring smart contract events and firing off webhooks in response.
